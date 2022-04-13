@@ -1,24 +1,34 @@
-.width-img-carousel {
-  height: 20vh;
-  border-radius: 2vh;
-  padding: 10px;
+
+
+.width-div {
+  padding: 0px 1%;
+  /* height: 100%; */
 }
 
-@media (max-width: 999px) {
-  .width-img-carousel {
-    padding: 0;
-  }
+.teste-div {
+  width: 100%;
+  height: 100%;
+}
+
+.teste-div img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* .item {
+  height: 33%;
+  width: 100%;
+} */
+
+.width-img-carousel {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 
 .bg-blue-300 {
-  padding-top: 3%;
-}
-
-.width-img {
-  height: 100%;
-  width: 50vh;
-  border-radius: 10%;
-  box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.1);
+  padding-top: 1%;
 }
 
 .width-logo {
