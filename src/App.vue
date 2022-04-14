@@ -50,6 +50,11 @@ nav a.router-link-exact-active {
   border-radius: 5px;
 }
 
+.bg-image {
+  background-image: url("./assets/img/Grupo4.png");
+  background-size: 100%;
+}
+
 .bg-image-male {
   background-image: url("./assets/img/Grupo1.png");
   background-size: 100%;

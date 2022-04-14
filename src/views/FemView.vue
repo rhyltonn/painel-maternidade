@@ -1,5 +1,5 @@
 <template>
-  <div class="home h-100 bg-image-fem">
+  <div class="home h-100 bg-image">
     <br />
     <Fem class="conteudo" />
     <CorrecaoFundo />
