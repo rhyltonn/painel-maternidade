@@ -3,7 +3,9 @@
     <div class="mx-auto bg-white rounded-full logo" style="width: 60%"></div>
   </nav> -->
   <Historico />
-  <router-view />
+  <transition name="fade">
+    <router-view />
+  </transition>
 </template>
 
 <script>
@@ -48,8 +50,37 @@ nav a.router-link-exact-active {
   border-radius: 5px;
 }
 
-.bg-image {
-  background-image: url("./assets/img/Grupo4.png");
+.bg-image-male {
+  background-image: url("./assets/img/Grupo1.png");
   background-size: 100%;
+}
+
+.bg-image-fem {
+  background-image: url("./assets/img/Grupo2.png");
+  background-size: 100%;
+}
+
+.fade-enter-from {
+  opacity: 0;
+}
+
+.fade-enter-to {
+  opacity: 1;
+}
+
+.fade-enter-active {
+  transition: all 1.5s ease-in;
+}
+
+.fade-leave-from {
+  opacity: 1;
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-leave-active {
+  transition: all 1.5s ease-in;
 }
 </style>
